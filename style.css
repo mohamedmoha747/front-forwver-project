@@ -41,20 +41,56 @@ section{
     align-items: center;
 
 }
-/* home */
-#home{
+ /* home */
+ #home {
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)), url(/th.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh; /* Ensure full viewport height */
+  }
+  
+  #home h1 {
+    font-size: 4rem; /* Responsive font size */
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana,Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #ccc,
+                 0px 3px 0px #ccc,
+                 0px 4px 0px #ccc,
+                 0px 5px 0px #ccc,
+                 0px 6px 0px #ccc,
+                 0px 7px 0px #ccc;
+  }
+  
+  #home p {
+    font-size: 1.125rem; /* Responsive font size */
+  }
+  
+  #home .input-group {
+    width: 80%; /* Responsive width */
+    max-width: 600px; /* Maximum width */
+    margin-top: 1rem;
+  }
+  
+  .signin {
+    background: green !important;
+    color: white !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+  }
+  
+ /* #home{
      background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)), url(/th.jpeg);
      background-size:cover;
      
      background-position: center;
      flex-direction: column;
-    
-    
-     
-     /* background-repeat: no-repeat; */
-     /* padding:200px 0; */
-
-}
+    }
 
 #home h1{
     
@@ -76,8 +112,8 @@ section{
 }
 #home .input-group{
       width:40%;
-      height: 45px;
-}
+      height: 45px; 
+    }  */
 .signin{
     background:green !important;
     color:white !important;
